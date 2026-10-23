@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PathFinder — AI Career Counselor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">Path<span>Finder</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#predictor">Try It</a></li>
+      <li><a href="#careers">Careers</a></li>
+    </ul>
+    <a href="#predictor" class="nav-cta">Find My Path</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+      <div class="grid-lines"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">Powered by Random Forest ML</div>
+      <h1 class="hero-title">
+        Discover Your<br/>
+        <span class="title-accent">Perfect Career</span><br/>
+        Path Today
+      </h1>
+      <p class="hero-sub">Enter your marks, sports profile, and study habits. Our AI analyses your unique combination of talents and predicts your ideal career — with percentage confidence.</p>
+      <div class="hero-btns">
+        <a href="#predictor" class="btn-primary">Start Prediction</a>
+        <a href="#how" class="btn-ghost">See How It Works</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">6</span><span class="stat-label">Career Paths</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">9</span><span class="stat-label">Input Factors</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">100</span><span class="stat-label">Decision Trees</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit-ring ring1">
+        <div class="orbit-dot" style="--angle:0deg"><div class="dot-label">Sports</div></div>
+        <div class="orbit-dot" style="--angle:60deg"><div class="dot-label">Science</div></div>
+        <div class="orbit-dot" style="--angle:120deg"><div class="dot-label">Arts</div></div>
+        <div class="orbit-dot" style="--angle:180deg"><div class="dot-label">Tech</div></div>
+        <div class="orbit-dot" style="--angle:240deg"><div class="dot-label">Business</div></div>
+        <div class="orbit-dot" style="--angle:300deg"><div class="dot-label">Medicine</div></div>
+      </div>
+      <div class="orbit-center">
+        <div class="center-icon">AI</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="section-label">The Process</div>
+    <h2 class="section-title">How PathFinder Works</h2>
+    <p class="section-sub">Three simple steps from your data to your destiny</p>
+    <div class="steps-grid">
+      <div class="step-card" data-step="01">
+        <div class="step-icon-wrap">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="6" y="8" width="28" height="26" rx="3" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="13" y1="16" x2="27" y2="16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="13" y1="21" x2="27" y2="21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="13" y1="26" x2="21" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Enter Your Profile</h3>
+        <p>Input your subject marks (Math, Physics, Bio etc.), attendance, daily focus time, and sports skill level using our interactive sliders.</p>
+      </div>
+      <div class="step-connector">
+        <svg viewBox="0 0 60 20"><path d="M0 10 Q30 0 60 10" stroke="currentColor" stroke-width="1" fill="none" stroke-dasharray="4 3"/></svg>
+      </div>
+      <div class="step-card" data-step="02">
+        <div class="step-icon-wrap">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M20 8 L20 14 M20 26 L20 32 M8 20 L14 20 M26 20 L32 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="20" cy="20" r="4" fill="currentColor" opacity="0.3"/>
+          </svg>
+        </div>
+        <h3>AI Pattern Matching</h3>
+        <p>Our Random Forest model — trained on 500 student profiles — compares your data against successful professionals in 6 career categories.</p>
+      </div>
+      <div class="step-connector">
+        <svg viewBox="0 0 60 20"><path d="M0 10 Q30 0 60 10" stroke="currentColor" stroke-width="1" fill="none" stroke-dasharray="4 3"/></svg>
+      </div>
+      <div class="step-card" data-step="03">
+        <div class="step-icon-wrap">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="6" y="28" width="6" height="8" rx="1" fill="currentColor" opacity="0.4"/>
+            <rect x="14" y="20" width="6" height="16" rx="1" fill="currentColor" opacity="0.6"/>
+            <rect x="22" y="14" width="6" height="22" rx="1" fill="currentColor" opacity="0.8"/>
+            <rect x="30" y="8" width="6" height="28" rx="1" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Get Ranked Results</h3>
+        <p>Receive a ranked list of career paths with percentage confidence scores. See exactly why each career suits your unique profile.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREDICTOR -->
+  <section class="predictor" id="predictor">
+    <div class="predictor-inner">
+      <div class="predictor-left">
+        <div class="section-label light">Career Predictor</div>
+        <h2 class="section-title light">Tell Us About Yourself</h2>
+        <p class="section-sub light">Adjust the sliders to match your real profile for accurate predictions</p>
+
+        <div class="form-grid">
+          <div class="form-group full">
+            <div class="group-title">Academic Performance</div>
+          </div>
+
+          <div class="form-group">
+            <label>Mathematics <span class="val-badge" id="math-val">75</span></label>
+            <input type="range" min="30" max="100" value="75" id="math" oninput="updateVal('math')"/>
+          </div>
+          <div class="form-group">
+            <label>Physics <span class="val-badge" id="physics-val">70</span></label>
+            <input type="range" min="30" max="100" value="70" id="physics" oninput="updateVal('physics')"/>
+          </div>
+          <div class="form-group">
+            <label>Chemistry <span class="val-badge" id="chemistry-val">65</span></label>
+            <input type="range" min="30" max="100" value="65" id="chemistry" oninput="updateVal('chemistry')"/>
+          </div>
+          <div class="form-group">
+            <label>Biology <span class="val-badge" id="biology-val">65</span></label>
+            <input type="range" min="30" max="100" value="65" id="biology" oninput="updateVal('biology')"/>
+          </div>
+          <div class="form-group">
+            <label>English <span class="val-badge" id="english-val">70</span></label>
+            <input type="range" min="30" max="100" value="70" id="english" oninput="updateVal('english')"/>
+          </div>
+
+          <div class="form-group full">
+            <div class="group-title" style="margin-top:8px">Habits & Sports</div>
+          </div>
+
+          <div class="form-group">
+            <label>Attendance % <span class="val-badge" id="attendance-val">80</span></label>
+            <input type="range" min="40" max="100" value="80" id="attendance" oninput="updateVal('attendance')"/>
+          </div>
+          <div class="form-group">
+            <label>Daily Focus (min) <span class="val-badge" id="focus-val">60</span></label>
+            <input type="range" min="20" max="120" value="60" id="focus" oninput="updateVal('focus')"/>
+          </div>
+          <div class="form-group">
+            <label>Sport Skill (1–10) <span class="val-badge" id="skill-val">5</span></label>
+            <input type="range" min="1" max="10" value="5" id="skill" oninput="updateVal('skill')"/>
+          </div>
+          <div class="form-group">
+            <label>Sport Type</label>
+            <select id="sport">
+              <option value="0">Football</option>
+              <option value="1">Cricket</option>
+              <option value="2">Swimming</option>
+              <option value="3">Athletics</option>
+              <option value="4">Basketball</option>
+              <option value="5">Badminton</option>
+              <option value="6">None</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="predict-btn" onclick="predict()">
+          <span class="btn-text">Predict My Career Path</span>
+          <span class="btn-arrow">→</span>
+        </button>
+      </div>
+
+      <div class="predictor-right">
+        <div class="results-placeholder" id="results-placeholder">
+          <div class="placeholder-icon">
+            <svg viewBox="0 0 80 80" fill="none">
+              <circle cx="40" cy="40" r="38" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+              <circle cx="40" cy="40" r="26" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+              <circle cx="40" cy="40" r="14" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+              <circle cx="40" cy="40" r="5" fill="rgba(255,255,255,0.2)"/>
+              <line x1="40" y1="2" x2="40" y2="14" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+              <line x1="40" y1="66" x2="40" y2="78" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+              <line x1="2" y1="40" x2="14" y2="40" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+              <line x1="66" y1="40" x2="78" y2="40" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+            </svg>
+          </div>
+          <p>Adjust the sliders and hit<br/><strong>Predict My Career Path</strong></p>
+        </div>
+
+        <div class="results-panel" id="results-panel" style="display:none">
+          <div class="results-header">
+            <div class="results-title">Your Career Match</div>
+            <div class="top-match" id="top-match-label"></div>
+          </div>
+          <div class="bars-container" id="bars-container"></div>
+          <div class="results-note" id="results-note"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAREERS GRID -->
+  <section class="careers" id="careers">
+    <div class="section-label">Explore Paths</div>
+    <h2 class="section-title">6 Career Categories</h2>
+    <p class="section-sub">Every prediction maps to one of these six meaningful paths</p>
+    <div class="careers-grid">
+      <div class="career-card" data-color="#7C3AED">
+        <div class="career-num">01</div>
+        <div class="career-icon">
+          <svg viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="14" stroke="currentColor" stroke-width="1.5"/><path d="M12 22 L18 10 L24 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="14" y1="19" x2="22" y2="19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Sports Analytics</h3>
+        <p>Combine mathematical talent with athletic passion. Analyse game data, player statistics, and team performance.</p>
+        <div class="career-tags"><span>High Math</span><span>Sport Skill 7+</span></div>
+      </div>
+      <div class="career-card" data-color="#0EA5E9">
+        <div class="career-num">02</div>
+        <div class="career-icon">
+          <svg viewBox="0 0 36 36" fill="none"><rect x="6" y="8" width="24" height="20" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M11 18 L15 14 L19 18 L23 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Data Science</h3>
+        <p>Build ML models, analyse big data, and create intelligent systems. The field of the future.</p>
+        <div class="career-tags"><span>Math 85+</span><span>Physics 80+</span></div>
+      </div>
+      <div class="career-card" data-color="#10B981">
+        <div class="career-num">03</div>
+        <div class="career-icon">
+          <svg viewBox="0 0 36 36" fill="none"><path d="M18 6 C12 6 8 11 8 16 C8 24 18 30 18 30 C18 30 28 24 28 16 C28 11 24 6 18 6Z" stroke="currentColor" stroke-width="1.5"/><circle cx="18" cy="17" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+        <h3>Medicine / Research</h3>
+        <p>High Biology and Chemistry marks combined with discipline and focus lead to life-saving careers.</p>
+        <div class="career-tags"><span>Bio 88+</span><span>Attendance 90+</span></div>
+      </div>
+      <div class="career-card" data-color="#F59E0B">
+        <div class="career-num">04</div>
+        <div class="career-icon">
+          <svg viewBox="0 0 36 36" fill="none"><circle cx="18" cy="12" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M10 28 C10 22 26 22 26 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M24 16 L28 12 M26 18 L30 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Professional Athlete</h3>
+        <p>Elite sport skill (9+/10) is the defining factor. Coaching, training, and professional competition await.</p>
+        <div class="career-tags"><span>Skill 9+/10</span><span>Active Sport</span></div>
+      </div>
+      <div class="career-card" data-color="#EC4899">
+        <div class="career-num">05</div>
+        <div class="career-icon">
+          <svg viewBox="0 0 36 36" fill="none"><path d="M8 26 Q18 6 28 26" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/><circle cx="18" cy="18" r="3" fill="currentColor" opacity="0.4"/><path d="M13 22 Q18 14 23 22" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Arts & Humanities</h3>
+        <p>Strong English and creative expression lead to careers in writing, journalism, design, and culture.</p>
+        <div class="career-tags"><span>English 85+</span><span>Creative Focus</span></div>
+      </div>
+      <div class="career-card" data-color="#EF4444">
+        <div class="career-num">06</div>
+        <div class="career-icon">
+          <svg viewBox="0 0 36 36" fill="none"><rect x="8" y="14" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M13 14 L13 11 C13 8.8 15 7 18 7 C21 7 23 8.8 23 11 L23 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="18" cy="21" r="2" fill="currentColor" opacity="0.5"/></svg>
+        </div>
+        <h3>Business / Management</h3>
+        <p>Balanced academics with strong English and communication skills. Lead teams, manage organisations.</p>
+        <div class="career-tags"><span>English 78+</span><span>Balanced Marks</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Path<span>Finder</span></div>
+      <p class="footer-text">Built with Python · scikit-learn Random Forest · 500-student training dataset</p>
+      <p class="footer-text" style="opacity:0.4;font-size:12px;margin-top:6px">A Machine Learning School Project</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
